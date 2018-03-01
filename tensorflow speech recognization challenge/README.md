@@ -15,7 +15,8 @@ doing this i got a significant improvement in the dev set <br/>
 
 2. model should not be too simple or too complex both comes with different problem so make the fairly complex which using some of the regularising tools like using dropout<br/>
 
-
+NOTE: <br/>
+achieved an acuracy of of 77% on the validation set and 85% on the test set. on the confusion matrix we correctly able to classify all the classes 70 percent of the time (consider there are 30 classes) so this result is not bad . further this result can be imporved by using more forms of audio augmentation and adding more background noises with the help of the function extract_feature_fixed_background_noise. i tried this but not able to complete it as it may take almost a day on my computer to do it. feel free to use my model which is simple model without augmentation or experiment with your own model and comment if any probelm is found
 
 
 
