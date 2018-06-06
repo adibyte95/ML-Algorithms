@@ -1,6 +1,10 @@
 ## author -ADITYA SINGH
 
-## to train nn on large images 
+## TOPIC: when you want to train your neural net with images of large sizes but you cannot convert the images into that size (say 500 *500)
+## considering threre are 13000 training examples on you pc then you can follow the following code
+## thing to be noted that this code will consume memory depending upon tuining of hyper parameter and will also consume time so this must be 
+## used only in case utmost need arises
+
 
 ##hyperparameters to be tuned according to the dataset
 
