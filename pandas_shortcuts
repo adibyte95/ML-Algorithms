@@ -1,0 +1,18 @@
+## this file contains pandas shortcuts 
+
+let us suppose that df is out data frame
+
+
+1. df.head() - prints first few rows of the data frame
+2. df.head(n) - prints first n rows of the data frame
+3. df.tail() - prints last few rows of the dataframe
+4. df.tail(n) - prints last few rows of the data frame
+
+5. df[2:5] -  prints the rows from 2 to 4
+6. df[:] or df prints every thing
+
+7. df.columns - prints the columns in the dataframe
+
+8. let us have column names as employee_id, name etc then df.employee_id will print the contents of the employee_id column
+
+
