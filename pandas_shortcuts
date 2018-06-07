@@ -1,6 +1,6 @@
 ## this file contains pandas shortcuts 
 
-let us suppose that df is out data frame
+let us suppose that df is our data frame
 
 
 1. df.head() - prints first few rows of the data frame
@@ -14,5 +14,11 @@ let us suppose that df is out data frame
 7. df.columns - prints the columns in the dataframe
 
 8. let us have column names as employee_id, name etc then df.employee_id will print the contents of the employee_id column
+9. df[['employee_id', 'name']] -  this will print both the columns 
+10. if we want to find the maximum of any column then df['temperature'].max() finds the max of any row we can also print min mean 
+standered deviation etc
 
+11. df.describe will print the statistics of the data frame
 
+12. perform conditional queries 
+df[df.temperature > 32] will give you all the rows where the temperature is greater than 32
